@@ -168,33 +168,25 @@ GROUP BY Payment_method
 ORDER BY Total_Revenue DESC;
 
 # 1. DATA LIMITATIONS:
-# 📈 The dataset contains 1,000 transaction records but only four distinct product IDs: 1054, 1055, 1062, and 1064. Each ID corresponds to a different product category: Clothing, Electronics, Food, or Furniture.
-# 📈 Consequently, the analysis compares four product categories rather than a wide range of individual products. Additional product names and details would help the business identify its best-selling individual products.
-# 📈 The dataset classifies customers as New or Returning but does not contain unique customer IDs. Therefore, it is not possible to determine how often individual customers purchase products or calculate customer retention rates accurately.
-# 📈 The dataset does not contain detailed information about advertising campaigns, discounts, inventory levels, customer satisfaction, or promotional activities. This limits the ability to explain why particular products or categories perform better than others.
-# 📈 The dataset covers transactions from 2 January 2023 to 27 September 2025. Since 2025 is incomplete, comparing its total sales with those of complete years could produce misleading conclusions.
-# 📈 The column MyUnknownColumn, contains no data. It contributes nothing to the analysis and should be removed after confirming that it is unnecessary.
-# 📈 Each sales representative is associated with only one region in this dataset. Therefore, differences in their sales results cannot be attributed solely to individual performance because regional differences may also influence the results
+# 📈 Limited Product Details: The dataset contains only four distinct product IDs, limiting detailed analysis of individual products within each category.
+# 📈 Missing Customer Identifiers: Unique customer IDs are unavailable, preventing accurate measurement of individual purchase frequency and customer retention.
+# 📈 Missing Business Context: Information about advertising, discounts, promotions, inventory, and customer satisfaction is unavailable, limiting explanations for sales performance.
+# 📈 Incomplete Reporting Year: The dataset covers 2 January 2023 to 27 September 2025, meaning 2025 is incomplete and direct comparisons with full years may be misleading.
+# 📈 Unclear Performance Attribution: Each sales representative is associated with only one region, making it difficult to separate individual performance from regional influences. The MyUnknownColumn field also contains no data and should be reviewed for removal.
 
 # 2. KEY FINDINGS:
-# 🔑 The analysis revealed that the retail store recorded 1,000 transactions, sold 25,355 units, and generated total revenue of 70,329,940.71.
-# 🔑 The total cost recorded was 63,842,093.64, while the store generated 6,487,847.07 in total profit. This represents an overall profit margin of approximately 9.22%.
-# 🔑 Business insight: The store is generating revenue and profit, but management should investigate opportunities to improve profitability by reviewing costs, pricing, and the performance of individual product categories.
-# 🔑 Clothing emerged as the leading category by revenue, generating 19,286,733.93 from 268 transactions and selling 6,922 units
-# 🔑 Furniture ranked second in revenue, generating 18,330,280.56, followed by Electronics at 17,571,040.57. Food recorded the lowest revenue, at 15,141,885.65.
-# 🔑 Business insight: Clothing is the strongest category in terms of revenue and units sold. The business should maintain its availability and investigate the factors contributing to its strong performance.
-# 🔑 Although Clothing generated the highest revenue, Furniture recorded the highest total profit, at 1,779,461.16, and the highest profit margin, at approximately 9.71%.
-# 🔑 The category generating the highest revenue is not necessarily the category generating the highest profit. Furniture's performance suggests that management should explore opportunities to increase its sales while maintaining its profitability.
-# 🔑 The North region generated the highest revenue, at 18,208,403.85, followed by East at 18,077,401.05 and West at 17,761,568.65
-# 🔑 The online sales channel generated 35,739,707.20 from 488 transactions, while the retail channel generated 34,590,233.51 from 512 transactions.
-# 🔑 Online sales therefore generated 1,149,473.69 more revenue despite recording fewer transactions.
+# 🔑 Overall Performance: The store recorded 1,000 transactions, sold 25,355 units, generated 70,329,940.71 in revenue, and earned 6,487,847.07 in profit, with an overall profit margin of approximately 9.22%.
+# 🔑 Product Categories: Clothing generated the highest revenue at 19,286,733.93, while Food recorded the lowest revenue at 15,141,885.65.
+# 🔑 Profitability: Furniture generated the highest total profit of 1,779,461.16 and the highest profit margin of approximately 9.71%, despite Clothing generating the most revenue.
+# 🔑 Regional Performance: North recorded the highest regional revenue at 18,208,403.85.
+# 🔑 Sales Channels: Online sales generated 35,739,707.20 from 488 transactions, exceeding retail sales revenue by 1,149,473.69 despite having fewer transactions.
 
 # 💡 RECOMMENDATIONS:
-# Explore opportunities to increase Furniture sales while maintaining its profit margin. Review pricing, costs, and demand before expanding stock or promotional activities.
-# For the South region's lower revenue. Consider targeted marketing, customer engagement, and product availability improvements based on additional regional information.
-# Introduce customer loyalty programmes, personalised offers, and follow-up promotions to encourage existing customers to return. Collect unique customer IDs to measure retention and repeat-purchase rates accurately.
-# Collect more detailed product information, unique customer identifiers, inventory levels, and promotional details to support deeper analysis.
-# Maintaining Clothing's strong performance, exploring opportunities to increase Furniture sales, improving the performance of the Food category, and encouraging repeat purchases through customer loyalty programmes
+# Grow Profitable Categories: Explore opportunities to increase Furniture sales while maintaining its strong profit margin.
+# Maintain Clothing Performance: Ensure product availability and investigate the factors contributing to Clothing's high revenue and sales volume.
+# Improve Lower-Performing Categories: Review the pricing, demand, costs, and marketing of Food to identify opportunities for improvement.
+# Strengthen Customer Retention: Introduce loyalty programmes and personalized promotions to encourage repeat purchases.
+# Improve Data Collection: Add unique customer IDs, detailed product information, inventory data, and promotional records to support better decisions.
 
 # CONCLUSION: DATA STORYTELLING:
 # The Retail Store Analysis reveals a business that generated 70.33 million in revenue and 6.49 million in profit, with an overall profit margin of approximately 9.22% across 1,000 transactions.
