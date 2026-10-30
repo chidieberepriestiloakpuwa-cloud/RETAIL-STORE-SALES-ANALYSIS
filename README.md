@@ -1,7 +1,7 @@
 ### RETAIL-STORE-SALES-ANALYSIS
 Analyse The Dataset to Uncover Products Performance
 
-### SUMMARY: 
+##### SUMMARY: 
 This project uses MySQL to analyze 1,000 retail sales transactions, examining sales revenue, costs, profit, and product category performance. The analysis revealed that Clothing generated the highest revenue, while Furniture recorded the highest total profit and profit margin. The findings provide insights into sales trends, regional performance, and sales channels to help identify opportunities for improving profitability and business growth.
 
 #### OBJECTIVES: 
